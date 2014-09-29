@@ -7,6 +7,23 @@ No HTTP server, backend or server-side program. All you need is just a browser.
 
 <br />
 
+Compiling CSS and JavaScript
+---
+* Installing Grunt
+To install Grunt, you must first download and install node.js (which includes npm). npm stands for node packaged modules and is a way to manage development dependencies through node.js.
+
+* Then, from the command line:
+> Install grunt-cli globally with npm install -g grunt-cli.
+>
+> Navigate to the root /yaaw/ directory, then run npm install. npm will look at the package.json file and automatically install the necessary local dependencies listed there.
+
+* When completed, you'll be able to run the various Grunt commands provided from the command line.
+
+* Available Grunt commands
+> grunt dist (Just compile CSS and JavaScript)
+>
+> Regenerates the /dist/ directory with compiled and minified CSS and JavaScript files.
+
 Usage
 -----
 1. Run aria2 with RPC enabled
